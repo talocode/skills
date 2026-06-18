@@ -2,6 +2,10 @@
 
 Reusable instructions for AI coding agents that help them build open-source, local-first tools the Talocode way.
 
+## Demo
+
+Watch the demo video in the GitHub release assets: [Talocode Skills Demo](https://github.com/talocode/skills/releases/tag/skills-v0.1.0)
+
 ## What are Talocode Skills?
 
 Skills are markdown files that give AI coding agents (Codex, Claude Code, Cursor, Hermes) specialized knowledge about how Talocode builds products. They encode repeatable patterns so agents can follow proven workflows.
