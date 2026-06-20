@@ -142,6 +142,75 @@ Get Started
 github.com/<org>/<repo>
 ```
 
+## Attention Framework
+
+**Hook → Retention → Emotion → Distribution**
+
+Core principle: "Attention is engineered, not accidental."
+
+### Hook
+
+The first 1–3 seconds must stop the scroll.
+
+**Good hooks:**
+- Show the result first
+- Show the pain immediately
+- Start with a bold claim
+- Start with a surprising before/after
+- Show a real command/output fast
+- Show the product doing something valuable immediately
+
+**Avoid:**
+- Slow intros
+- Generic logo openings
+- "Welcome to this demo"
+- Long context before value
+
+### Retention
+
+Keep the viewer watching through pacing and curiosity.
+
+**Rules:**
+- One idea per scene
+- Cut dead time
+- Keep scenes short
+- Use visible progress
+- Use captions
+- Show transformation
+- Create open loops
+- Make every 3–5 seconds visually earn attention
+
+### Emotion
+
+Make the viewer feel the pain, relief, ambition, speed, frustration, or possibility.
+
+**Use:**
+- Builder struggle
+- Time saved
+- Frustration removed
+- "Finally" moments
+- Real constraints
+- Honest shipping energy
+- Open-source mission
+
+**Avoid:**
+- Robotic neutral demos
+- Feature lists without stakes
+- Fake hype
+
+### Distribution
+
+Make the video easy to share across platforms.
+
+**Rules:**
+- Include clear takeaway
+- Include product name visually
+- Include install/link CTA
+- Export for platform aspect ratios
+- Make captions readable on mobile
+- Make the first frame strong enough as a thumbnail
+- Create cutdowns for X, LinkedIn, YouTube Shorts, Instagram, Threads, Facebook, WhatsApp
+
 ## Rules
 
 ### No Fake Claims
@@ -196,6 +265,44 @@ echo "Demo video: $OUTPUT"
 ```bash
 gh release upload <tag> demo/<product>-v<version>-demo.mp4 --clobber
 ```
+
+## Talocode Release Demo Structure
+
+Recommended structure for 35–60 second demos:
+
+1. **0–3s: Hook**
+   - Show final result or strongest command
+   - No slow intro
+
+2. **3–10s: Pain/context**
+   - What was hard before
+
+3. **10–30s: Product workflow**
+   - Show real commands, UI, or output
+
+4. **30–45s: Proof**
+   - Validation, install, release, before/after
+
+5. **45–60s: CTA/distribution**
+   - GitHub release
+   - npm install
+   - Sponsor link if relevant
+   - Product account
+
+## Viral Readiness Checklist
+
+A video is not ready unless:
+
+- [ ] First 3 seconds clearly create curiosity or value
+- [ ] No generic intro
+- [ ] Captions are readable on mobile
+- [ ] Every scene has one job
+- [ ] Dead time is removed
+- [ ] There is a clear emotional reason to care
+- [ ] The result/proof is shown
+- [ ] CTA is visible
+- [ ] Can be understood with sound off
+- [ ] Can be repurposed to at least 3 platforms
 
 ## Notes
 
