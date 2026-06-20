@@ -21,6 +21,7 @@ Skills are markdown files that give AI coding agents (Codex, Claude Code, Cursor
 | `talocode-github-sponsors` | Adding GitHub Sponsors support to repos |
 | `talocode-production-deploy` | Production deployment and build verification |
 | `talocode-partnership-branding` | Premium partnership/collaboration image style |
+| `talocode-design-taste-router` | Route agents to the right design skill |
 
 ## Install
 
@@ -32,6 +33,7 @@ npx skills add talocode/skills/talocode-open-source-positioning
 npx skills add talocode/skills/talocode-github-sponsors
 npx skills add talocode/skills/talocode-production-deploy
 npx skills add talocode/skills/talocode-partnership-branding
+npx skills add talocode/skills/talocode-design-taste-router
 ```
 
 Or install all at once:
@@ -39,6 +41,16 @@ Or install all at once:
 ```bash
 npx skills add talocode/skills
 ```
+
+### External Skills
+
+We recommend these external skills:
+
+- **Taste Skill** by Leonxlnx: https://github.com/Leonxlnx/taste-skill
+  - Install: `npx skills add Leonxlnx/taste-skill`
+  - For frontend UI polish, brand kits, and anti-slop design
+
+See [docs/EXTERNAL_SKILLS.md](docs/EXTERNAL_SKILLS.md) for more information.
 
 ## Usage
 
