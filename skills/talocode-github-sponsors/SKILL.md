@@ -18,8 +18,16 @@ Use this skill when:
 
 ### FUNDING.yml Content
 ```yaml
+# Support Talocode open-source work.
+# Buy Me a Coffee is not active for now because payout setup does not currently support Nigeria.
+
 github: [Abdulmuiz44]
+
+custom:
+  - https://github.com/sponsors/Abdulmuiz44
 ```
+
+**Note:** GitHub Sponsors is the only active funding platform. Buy Me a Coffee is not enabled because payout setup does not currently support Nigeria.
 
 ### Sponsor Badge (for GitHub READMEs)
 ```markdown
