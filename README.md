@@ -18,6 +18,7 @@ Skills are markdown files that give AI coding agents (Codex, Claude Code, Cursor
 | `talocode-local-first-cli` | Building local-first open-source CLIs |
 | `talocode-remotion-demo` | Creating release demo videos |
 | `talocode-open-source-positioning` | Messaging and positioning for open-source tools |
+| `talocode-github-sponsors` | Adding GitHub Sponsors support to repos |
 
 ## Install
 
@@ -26,6 +27,7 @@ npx skills add talocode/skills/talocode-release
 npx skills add talocode/skills/talocode-local-first-cli
 npx skills add talocode/skills/talocode-remotion-demo
 npx skills add talocode/skills/talocode-open-source-positioning
+npx skills add talocode/skills/talocode-github-sponsors
 ```
 
 Or install all at once:
