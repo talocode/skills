@@ -22,6 +22,7 @@ Skills are markdown files that give AI coding agents (Codex, Claude Code, Cursor
 | `talocode-production-deploy` | Production deployment and build verification |
 | `talocode-partnership-branding` | Premium partnership/collaboration image style |
 | `talocode-design-taste-router` | Route agents to the right design skill |
+| `talocode-superagent-harness` | Patterns for long-horizon agent systems |
 
 ## Install
 
@@ -34,6 +35,7 @@ npx skills add talocode/skills/talocode-github-sponsors
 npx skills add talocode/skills/talocode-production-deploy
 npx skills add talocode/skills/talocode-partnership-branding
 npx skills add talocode/skills/talocode-design-taste-router
+npx skills add talocode/skills/talocode-superagent-harness
 ```
 
 Or install all at once:
@@ -79,6 +81,20 @@ To add a new skill:
 2. Follow the existing format
 3. Keep it practical and actionable
 4. Test it with an AI agent before submitting
+
+## External Agent Harnesses
+
+We study external agent systems to improve Talocode's architecture:
+
+- **DeerFlow by ByteDance**: https://github.com/bytedance/deer-flow
+  - MIT licensed
+  - SuperAgent harness with sub-agents, memory, sandboxes
+  - See `docs/EXTERNAL_AGENT_HARNESSES.md` for details
+
+- **Taste Skill by Leonxlnx**: https://github.com/Leonxlnx/taste-skill
+  - MIT licensed
+  - Frontend design quality for AI agents
+  - See `docs/EXTERNAL_SKILLS.md` for details
 
 ## Support Talocode
 
