@@ -16,7 +16,7 @@ Skills are markdown files that give AI coding agents (Codex, Claude Code, Cursor
 |-------|---------|
 | `talocode-release` | Full release discipline for npm packages |
 | `talocode-local-first-cli` | Building local-first open-source CLIs |
-| `talocode-remotion-demo` | Creating release demo videos with Hook → Retention → Emotion → Distribution framework |
+| `talocode-video` | Create videos with Remotion, HyperFrames-style HTML, ffmpeg, and ClipLoop |
 | `talocode-open-source-positioning` | Messaging and positioning for open-source tools |
 | `talocode-github-sponsors` | Adding GitHub Sponsors support to repos |
 | `talocode-production-deploy` | Production deployment and build verification |
@@ -28,7 +28,7 @@ Skills are markdown files that give AI coding agents (Codex, Claude Code, Cursor
 ```bash
 npx skills add talocode/skills/talocode-release
 npx skills add talocode/skills/talocode-local-first-cli
-npx skills add talocode/skills/talocode-remotion-demo
+npx skills add talocode/skills/talocode-video
 npx skills add talocode/skills/talocode-open-source-positioning
 npx skills add talocode/skills/talocode-github-sponsors
 npx skills add talocode/skills/talocode-production-deploy
