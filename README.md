@@ -62,6 +62,14 @@ To add a new skill:
 3. Keep it practical and actionable
 4. Test it with an AI agent before submitting
 
+## Support Talocode
+
+Talocode builds open-source workflow layers for builders: coding agents, learning tools, trading intelligence, video workflows, and local-first automation.
+
+If Talocode Skills helps you, you can support the work here:
+
+[![Sponsor Abdulmuiz44](https://img.shields.io/badge/Sponsor-Abdulmuiz44-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/Abdulmuiz44)
+
 ## License
 
 MIT © Talocode
