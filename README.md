@@ -32,6 +32,7 @@ Skills are markdown files that give AI coding agents (Codex, Claude Code, Cursor
 | `talocode-generative-visuals` | Create procedural visuals |
 | `talocode-skill-creator` | Standardize skill creation |
 | `talocode-agent-workflows` | Disciplined agent workflows |
+| `talocode-web-context` | Safe web/document context extraction workflow |
 
 ## Install
 
@@ -54,6 +55,7 @@ npx skills add talocode/skills/talocode-visual-artifact
 npx skills add talocode/skills/talocode-generative-visuals
 npx skills add talocode/skills/talocode-skill-creator
 npx skills add talocode/skills/talocode-agent-workflows
+npx skills add talocode/skills/talocode-web-context
 ```
 
 Or install all at once:
