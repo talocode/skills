@@ -34,6 +34,7 @@ Skills are markdown files that give AI coding agents (Codex, Claude Code, Cursor
 | `talocode-agent-workflows` | Disciplined agent workflows |
 | `talocode-web-context` | Safe web/document context extraction workflow |
 | `talocode-youtube-intelligence` | Analyze YouTube patterns and create original high-retention video plans |
+| `talocode-visual-context` | Use screenshot-aware page context when layout, charts, tables, or UI structure matter |
 
 ## Install
 
@@ -58,6 +59,7 @@ npx skills add talocode/skills/talocode-skill-creator
 npx skills add talocode/skills/talocode-agent-workflows
 npx skills add talocode/skills/talocode-web-context
 npx skills add talocode/skills/talocode-youtube-intelligence
+npx skills add talocode/skills/talocode-visual-context
 ```
 
 Or install all at once:
