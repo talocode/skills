@@ -78,11 +78,6 @@ When referencing DeerFlow patterns:
 
 ## Other Agent Systems to Study
 
-### Claude Code
-- Sub-agent architecture
-- Tool routing patterns
-- Context management
-
 ### LangChain
 - Agent orchestration
 - Tool integration

@@ -23,6 +23,15 @@ Skills are markdown files that give AI coding agents (Codex, Claude Code, Cursor
 | `talocode-partnership-branding` | Premium partnership/collaboration image style |
 | `talocode-design-taste-router` | Route agents to the right design skill |
 | `talocode-superagent-harness` | Patterns for long-horizon agent systems |
+| `talocode-product-design` | Design high-quality product interfaces |
+| `talocode-systematic-debugging` | Root-cause debugging workflow |
+| `talocode-codebase-search` | Search codebases before editing |
+| `talocode-context-engineering` | Manage long-running tasks |
+| `talocode-theme-system` | Create coherent theme systems |
+| `talocode-visual-artifact` | Turn text into visual artifacts |
+| `talocode-generative-visuals` | Create procedural visuals |
+| `talocode-skill-creator` | Standardize skill creation |
+| `talocode-agent-workflows` | Disciplined agent workflows |
 
 ## Install
 
@@ -36,6 +45,15 @@ npx skills add talocode/skills/talocode-production-deploy
 npx skills add talocode/skills/talocode-partnership-branding
 npx skills add talocode/skills/talocode-design-taste-router
 npx skills add talocode/skills/talocode-superagent-harness
+npx skills add talocode/skills/talocode-product-design
+npx skills add talocode/skills/talocode-systematic-debugging
+npx skills add talocode/skills/talocode-codebase-search
+npx skills add talocode/skills/talocode-context-engineering
+npx skills add talocode/skills/talocode-theme-system
+npx skills add talocode/skills/talocode-visual-artifact
+npx skills add talocode/skills/talocode-generative-visuals
+npx skills add talocode/skills/talocode-skill-creator
+npx skills add talocode/skills/talocode-agent-workflows
 ```
 
 Or install all at once:
