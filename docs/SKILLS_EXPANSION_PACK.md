@@ -51,6 +51,33 @@ npx skills add talocode/skills/talocode-agent-workflows
 - `talocode-agent-workflows`
 - `talocode-codebase-search`
 
+## Recommended Skill Combinations
+
+### Debugging Stack
+- `talocode-codebase-search` - Find code
+- `talocode-systematic-debugging` - Debug issues
+- `talocode-context-engineering` - Manage context
+
+### UI Design Stack
+- `talocode-product-design` - Design interfaces
+- `talocode-theme-system` - Apply themes
+
+### Video Launch Stack
+- `talocode-video` - Create videos
+- `talocode-generative-visuals` - Generate visuals
+- `talocode-theme-system` - Apply themes
+
+### Codra Planning Stack
+- `talocode-visual-artifact` - Create visual plans
+- `talocode-agent-workflows` - Follow workflows
+- `talocode-codebase-search` - Search codebase
+
+### Context-Heavy Refactor Stack
+- `talocode-context-engineering` - Manage context
+- `talocode-systematic-debugging` - Debug issues
+- `talocode-codebase-search` - Search codebase
+- `talocode-agent-workflows` - Follow workflows
+
 ## Notes
 
 - Skills are Talocode-native
