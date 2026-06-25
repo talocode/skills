@@ -58,6 +58,15 @@ node scripts/audit-skill-noops.mjs --fail-on-high
 
 Default output is a human-readable summary plus findings. `--json` prints an array of finding objects. `--fail-on-high` exits non-zero when any high-severity finding exists.
 
+## CI
+
+GitHub Actions runs the auditor on pull requests, on pushes to `main`, and on pushes to `feat/**` branches.
+
+- `node scripts/test-skill-noop-auditor.mjs` verifies the local auditor behavior.
+- `node scripts/audit-skill-noops.mjs --fail-on-high` fails CI when any high-severity finding is present.
+- Use `<!-- talocode-noop-ok -->` only when the vague phrase is intentionally present in explanatory or example text.
+- Use `<!-- talocode-noop-audit-disable -->` rarely, because it disables the full file from the audit.
+
 ## Allowlist Comments
 
 Use inline allowlists when a phrase is intentionally present in explanatory text:
