@@ -89,6 +89,17 @@ After installing, the skill files are available to your AI coding agent. Use the
 
 Skills work best when used case-by-case, not always-on.
 
+## Audit Skill Instructions
+
+Run the local no-op auditor to find vague skill instructions that should be rewritten into concrete, testable rules:
+
+```bash
+node scripts/audit-skill-noops.mjs
+node scripts/test-skill-noop-auditor.mjs
+```
+
+See [docs/SKILL_NOOP_AUDITOR.md](docs/SKILL_NOOP_AUDITOR.md) for the instruction standard, allowlist comments, and rewrite guidance.
+
 ## Philosophy
 
 - **Open-source first**: Build in public, share freely
