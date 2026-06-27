@@ -74,6 +74,16 @@ node scripts/test-skill-noop-auditor.mjs
 
 The pack test verifies that all skills, marketplace metadata, docs, and examples exist, parse, and contain no banned phrases (no-op phrases, cloud-dependency claims, auto-destructive execution claims, secret-printing claims, or unsupported official-listing claims).
 
+## CI Validation
+
+Both checks run in GitHub Actions on every pull request and every push to `main` or `feat/**` (see `.github/workflows/skill-noop-auditor.yml`):
+
+- `node scripts/test-skill-noop-auditor.mjs` — auditor self-tests
+- `node scripts/audit-skill-noops.mjs --fail-on-high` — fails CI on high-severity no-op instructions
+- `node scripts/test-agent-distribution-pack.mjs` — validates the agent distribution pack
+
+New skills, marketplace metadata, and examples must pass both the no-op audit and the distribution pack test before merge. The scripts are dependency-free (Node built-ins only), so CI does not run `npm install`.
+
 ## Marketplace Metadata
 
 Each skill ships with marketplace metadata at `marketplace/<name>.json`:

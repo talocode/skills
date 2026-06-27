@@ -125,6 +125,8 @@ node scripts/test-agent-distribution-pack.mjs
 node scripts/audit-skill-noops.mjs --fail-on-high
 ```
 
+Both checks run in CI on every push and PR.
+
 ## Philosophy
 
 - **Open-source first**: Build in public, share freely

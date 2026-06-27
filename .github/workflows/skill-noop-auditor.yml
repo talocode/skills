@@ -1,4 +1,4 @@
-name: Skill No-Op Auditor
+name: Talocode Skills Quality
 
 on:
   pull_request:
@@ -8,7 +8,7 @@ on:
       - feat/**
 
 jobs:
-  skill-noop-auditor:
+  skills-quality:
     runs-on: ubuntu-latest
 
     steps:
@@ -25,3 +25,6 @@ jobs:
 
       - name: Fail on high-severity no-ops
         run: node scripts/audit-skill-noops.mjs --fail-on-high
+
+      - name: Validate Agent Distribution Pack
+        run: node scripts/test-agent-distribution-pack.mjs
