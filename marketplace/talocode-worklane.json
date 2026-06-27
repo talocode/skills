@@ -1,0 +1,21 @@
+{
+  "name": "Talocode WorkLane",
+  "slug": "talocode-worklane",
+  "description": "Use WorkLane as an approval-first agent automation control plane: tool gateway, loops/routines, automation approvals, execution queue, and audit history.",
+  "category": "agent-automation",
+  "tags": ["worklane", "automation", "approval-first", "local-first", "agent-control-plane", "audit"],
+  "repo": "https://github.com/talocode/skills.git",
+  "skill_path": "skills/talocode-worklane/SKILL.md",
+  "local_first": true,
+  "approval_first": true,
+  "requires_cloud_account": false,
+  "supported_agent_environments": [
+    "Codex",
+    "Claude Code",
+    "OpenCode",
+    "Cursor",
+    "SKILL.md-compatible agents"
+  ],
+  "version": "0.1.0",
+  "license": "MIT"
+}

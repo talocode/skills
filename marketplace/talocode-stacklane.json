@@ -1,0 +1,21 @@
+{
+  "name": "Talocode Stacklane",
+  "slug": "talocode-stacklane",
+  "description": "Use Stacklane as a local-first backend, storage, and usage layer: customers, API keys, usage events, usage summaries, and asset metadata with redacted secrets.",
+  "category": "backend-storage",
+  "tags": ["stacklane", "backend", "usage", "api-keys", "local-first", "asset-metadata"],
+  "repo": "https://github.com/talocode/skills.git",
+  "skill_path": "skills/talocode-stacklane/SKILL.md",
+  "local_first": true,
+  "approval_first": true,
+  "requires_cloud_account": false,
+  "supported_agent_environments": [
+    "Codex",
+    "Claude Code",
+    "OpenCode",
+    "Cursor",
+    "SKILL.md-compatible agents"
+  ],
+  "version": "0.1.0",
+  "license": "MIT"
+}

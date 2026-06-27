@@ -35,6 +35,9 @@ Skills are markdown files that give AI coding agents (Codex, Claude Code, Cursor
 | `talocode-web-context` | Safe web/document context extraction workflow |
 | `talocode-youtube-intelligence` | Analyze YouTube patterns and create original high-retention video plans |
 | `talocode-visual-context` | Use screenshot-aware page context when layout, charts, tables, or UI structure matter |
+| `talocode-worklane` | WorkLane as an approval-first agent automation control plane |
+| `talocode-stacklane` | Stacklane as a local-first backend, storage, and usage layer |
+| `talocode-launchpix` | LaunchPix launch graphics and social assets from screenshots |
 
 ## Install
 
@@ -60,6 +63,9 @@ npx skills add talocode/skills/talocode-agent-workflows
 npx skills add talocode/skills/talocode-web-context
 npx skills add talocode/skills/talocode-youtube-intelligence
 npx skills add talocode/skills/talocode-visual-context
+npx skills add talocode/skills/talocode-worklane
+npx skills add talocode/skills/talocode-stacklane
+npx skills add talocode/skills/talocode-launchpix
 ```
 
 Or install all at once:
@@ -99,6 +105,25 @@ node scripts/test-skill-noop-auditor.mjs
 ```
 
 See [docs/SKILL_NOOP_AUDITOR.md](docs/SKILL_NOOP_AUDITOR.md) for the instruction standard, allowlist comments, and rewrite guidance.
+
+## Talocode Agent Distribution Pack
+
+Marketplace-ready skills that make Talocode tools usable from Codex, Claude Code, OpenCode, Cursor, and other `SKILL.md`-compatible agent workflows. Local-first by default, approval-first for all write/destructive/external actions, no cloud account required.
+
+Skills included:
+
+- `talocode-worklane` — WorkLane as an approval-first agent automation control plane
+- `talocode-stacklane` — Stacklane as a local-first backend, storage, and usage layer
+- `talocode-launchpix` — LaunchPix launch graphics and social assets from screenshots
+
+Marketplace metadata lives under `marketplace/`, examples under `examples/`, and full docs at [docs/AGENT_DISTRIBUTION_PACK.md](docs/AGENT_DISTRIBUTION_PACK.md).
+
+Validate the pack:
+
+```bash
+node scripts/test-agent-distribution-pack.mjs
+node scripts/audit-skill-noops.mjs --fail-on-high
+```
 
 ## Philosophy
 
