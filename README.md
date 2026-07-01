@@ -6,6 +6,19 @@ Reusable instructions for AI coding agents that help them build open-source, loc
 
 Watch the demo video in the GitHub release assets: [Talocode Skills Demo](https://github.com/talocode/skills/releases/tag/skills-v0.1.0)
 
+## Talocode Skills API
+
+Talocode Skills are also available as a **hosted API** at `https://api.talocode.site/v1/skills/*`. Generate installable AI skill packs from GitHub profiles, repos, docs, and text — no `npx skills` required.
+
+```bash
+curl -X POST "$TALOCODE_BASE_URL/v1/skills/generate/github-repo" \
+  -H "Authorization: Bearer $TALOCODE_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"repoUrl": "https://github.com/talocode/codra", "target": "cursor"}'
+```
+
+See the [Skills API docs](https://github.com/talocode/talocode/blob/main/docs/skills.md) for full usage, pricing, and SDK/MCP integration.
+
 ## What are Talocode Skills?
 
 Skills are markdown files that give AI coding agents (Codex, Claude Code, Cursor, Hermes) specialized knowledge about how Talocode builds products. They encode repeatable patterns so agents can follow proven workflows.
