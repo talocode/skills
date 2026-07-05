@@ -179,6 +179,17 @@ If Talocode Skills helps you, you can support the work here:
 
 [![Sponsor Abdulmuiz44](https://img.shields.io/badge/Sponsor-Abdulmuiz44-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/Abdulmuiz44)
 
+## Talocode Domains
+
+| Domain | Purpose |
+|--------|---------|
+| [talocode.site](https://talocode.site) | Main site / homepage |
+| [docs.talocode.site](https://docs.talocode.site) | Documentation |
+| [api.talocode.site](https://api.talocode.site) | API endpoint |
+| [cloud.talocode.site](https://cloud.talocode.site) | Cloud dashboard |
+| [stacklane.talocode.site](https://stacklane.talocode.site) | Stacklane platform |
+| [dashboard.talocode.site](https://dashboard.talocode.site) | Dashboard |
+
 ## License
 
 MIT © Talocode
