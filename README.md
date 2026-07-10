@@ -43,11 +43,18 @@ Skills are markdown files that give AI coding agents (Codex, Claude Code, Cursor
 | `talocode-theme-system` | Create coherent theme systems |
 | `talocode-visual-artifact` | Turn text into visual artifacts |
 | `talocode-generative-visuals` | Create procedural visuals |
-| `talocode-skill-creator` | Standardize skill creation |
+| `talocode-skill-creator` | Standardize skill creation with leading words, failure modes, and progressive disclosure |
 | `talocode-agent-workflows` | Disciplined agent workflows |
 | `talocode-web-context` | Safe web/document context extraction workflow |
 | `talocode-youtube-intelligence` | Analyze YouTube patterns and create original high-retention video plans |
 | `talocode-visual-context` | Use screenshot-aware page context when layout, charts, tables, or UI structure matter |
+| `talocode-bug-diagnosis` | 6-phase debug discipline: build a tight feedback loop before hypothesising |
+| `talocode-writing` | Three-phase writing methodology: explore fragments, exploit through shaping or beats |
+| `talocode-workspace-teach` | Multi-session teaching workspace with lessons, reference docs, and learning records |
+| `talocode-architecture-design` | Deep-module vocabulary and process for codebase improvements |
+| `talocode-wayfinder` | Plan large multi-session efforts as a shared ticket map with fog-of-war tracking |
+| `talocode-code-review` | Two-axis parallel sub-agent review: Standards and Spec |
+| `talocode-domain-modeling` | Build, sharpen, and maintain domain glossary and architectural decisions |
 | `talocode-worklane` | WorkLane as an approval-first agent automation control plane |
 | `talocode-stacklane` | Stacklane as a local-first backend, storage, and usage layer |
 | `talocode-launchpix` | LaunchPix launch graphics and social assets from screenshots |
@@ -76,6 +83,13 @@ npx skills add talocode/skills/talocode-agent-workflows
 npx skills add talocode/skills/talocode-web-context
 npx skills add talocode/skills/talocode-youtube-intelligence
 npx skills add talocode/skills/talocode-visual-context
+npx skills add talocode/skills/talocode-bug-diagnosis
+npx skills add talocode/skills/talocode-writing
+npx skills add talocode/skills/talocode-workspace-teach
+npx skills add talocode/skills/talocode-architecture-design
+npx skills add talocode/skills/talocode-wayfinder
+npx skills add talocode/skills/talocode-code-review
+npx skills add talocode/skills/talocode-domain-modeling
 npx skills add talocode/skills/talocode-worklane
 npx skills add talocode/skills/talocode-stacklane
 npx skills add talocode/skills/talocode-launchpix
