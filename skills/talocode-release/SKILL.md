@@ -150,15 +150,23 @@ npm install -g <package-name>
   <tarball>.tgz
 ```
 
-### 10. Demo Video (Optional but Recommended)
+### 10. Demo Video (**Required**)
 
-Create a 35-60 second demo video and attach to the GitHub Release:
+Create a **60-second** demo video with **interesting multi-layer background audio** and attach it to the GitHub Release.
+
+**Hard rules** (see `talocode-video` skill):
+
+- Duration: **exactly ~60 seconds**
+- Audio: **always** present — layered score (pad + pulse + melody), never silent
+- Hook in first 1–3s; multi-scene realistic product shots (terminal/API/UI); CTA in last 10s
+- Captions / high-contrast on-screen text
 
 ```bash
-gh release upload <tag-name> demo/<demo-file>.mp4 --clobber
+# After generating with talocode-video workflow:
+gh release upload <tag-name> release-assets/<product>-demo.mp4 --clobber
 ```
 
-See `talocode-remotion-demo` skill for video creation guidance.
+Do **not** ship a static 6-second title card as a “demo.”
 
 ### 11. Announcement Checklist
 
