@@ -15,6 +15,8 @@ Help Talocode agents study publicly available YouTube channel and video metadata
 - Building a content calendar for consistent publishing
 - Analyzing what works in a niche before committing to a topic
 
+**Prerequisite for new domains:** run `talocode-domain-ingest` first (YouTube channel → wiki claims with fact-check). Pattern analysis without a verified knowledge base produces thin hooks.
+
 ## When NOT to Use This Skill
 
 - To copy, reupload, or clone existing videos

@@ -47,6 +47,8 @@ Skills are markdown files that give AI coding agents (Codex, Claude Code, Cursor
 | `talocode-agent-workflows` | Disciplined agent workflows |
 | `talocode-web-context` | Safe web/document context extraction workflow |
 | `talocode-youtube-intelligence` | Analyze YouTube patterns and create original high-retention video plans |
+| `talocode-domain-ingest` | Domain onboarding: YouTube channel → wiki claims (extract, fact-check, recency) + research fleet |
+| `leanlane` | Stop agents from over-building — decision ladder, score, review |
 | `talocode-visual-context` | Use screenshot-aware page context when layout, charts, tables, or UI structure matter |
 | `talocode-bug-diagnosis` | 6-phase debug discipline: build a tight feedback loop before hypothesising |
 | `talocode-writing` | Three-phase writing methodology: explore fragments, exploit through shaping or beats |
@@ -82,6 +84,7 @@ npx skills add talocode/skills/talocode-skill-creator
 npx skills add talocode/skills/talocode-agent-workflows
 npx skills add talocode/skills/talocode-web-context
 npx skills add talocode/skills/talocode-youtube-intelligence
+npx skills add talocode/skills/talocode-domain-ingest
 npx skills add talocode/skills/talocode-visual-context
 npx skills add talocode/skills/talocode-bug-diagnosis
 npx skills add talocode/skills/talocode-writing
