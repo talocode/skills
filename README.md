@@ -60,6 +60,8 @@ Skills are markdown files that give AI coding agents (Codex, Claude Code, Cursor
 | `talocode-worklane` | WorkLane as an approval-first agent automation control plane |
 | `talocode-stacklane` | Stacklane as a local-first backend, storage, and usage layer |
 | `talocode-launchpix` | LaunchPix launch graphics and social assets from screenshots |
+| `talocode-market-radar` | Competitor surveillance: verified baseline, delta grading, Act/Investigate/Watch/Ignore decisions with evidence |
+| `talocode-content-agent` | Brief-to-improvement content loop with evidence review and performance receipts |
 
 ## Install
 
@@ -96,6 +98,8 @@ npx skills add talocode/skills/talocode-domain-modeling
 npx skills add talocode/skills/talocode-worklane
 npx skills add talocode/skills/talocode-stacklane
 npx skills add talocode/skills/talocode-launchpix
+npx skills add talocode/skills/talocode-market-radar
+npx skills add talocode/skills/talocode-content-agent
 ```
 
 Or install all at once:
