@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/claude-plugin-marketplace.json",
-  "name": "talocode-skills",
+  "name": "talocode",
   "owner": {
     "name": "Talocode"
   },

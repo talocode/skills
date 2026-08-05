@@ -108,6 +108,28 @@ Or install all at once:
 npx skills add talocode/skills
 ```
 
+## Install from Marketplace
+
+All 51 skills ship as a single installable plugin (`talocode-skills`) in the `talocode` marketplace, distributed from this repository. No Claude account or Talocode account required.
+
+### Claude Code
+
+```bash
+/plugin marketplace add talocode/skills
+/plugin install talocode-skills@talocode
+```
+
+### Codex
+
+```bash
+codex plugin marketplace add talocode/skills
+codex plugin add talocode-skills@talocode
+```
+
+### OpenCode / Cursor / other SKILL.md agents
+
+Copy the `SKILL.md` files you need from `skills/<name>/` into your agent's skill directory (for example `.agents/skills/` or `.claude/skills/`). Every skill ships a `name` and `description` in frontmatter, so it is auto-discovered without a registry step.
+
 ### External Skills
 
 We recommend these external skills:
