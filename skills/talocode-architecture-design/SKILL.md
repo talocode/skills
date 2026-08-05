@@ -1,3 +1,9 @@
+---
+name: talocode-architecture-design
+description: Design and review codebase and API architecture using deep modules — lots of behaviour behind a small interface placed at a clean, testable seam.
+version: 0.1.0
+license: MIT
+---
 # talocode-architecture-design
 
 Shared vocabulary and process for designing deep modules and surfacing architecture improvements.

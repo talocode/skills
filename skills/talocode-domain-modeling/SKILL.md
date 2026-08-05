@@ -1,3 +1,9 @@
+---
+name: talocode-domain-modeling
+description: Actively build and sharpen a project's domain model — challenge terms, invent edge cases, and write glossary and decisions as they crystallise.
+version: 0.1.0
+license: MIT
+---
 # talocode-domain-modeling
 
 Build, sharpen, and maintain a project's domain model — glossary, terms, context boundaries, and architectural decisions.

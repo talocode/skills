@@ -1,3 +1,9 @@
+---
+name: talocode-release
+description: Release new versions of npm packages — the complete flow from build and tests to GitHub Release.
+version: 0.1.0
+license: MIT
+---
 # talocode-release
 
 Guide agents through the full Talocode release discipline.

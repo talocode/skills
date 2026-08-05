@@ -1,3 +1,9 @@
+---
+name: talocode-visual-artifact
+description: Create visual artifacts from text plans, reviews, and documentation — diagrams, architecture maps, product comparisons, and one-page HTML artifacts.
+version: 0.1.0
+license: MIT
+---
 # talocode-visual-artifact
 
 Turn structured text into clean visual artifacts.

@@ -1,3 +1,9 @@
+---
+name: talocode-codebase-search
+description: Search codebases before making changes — locate command handlers, API routes, config files, provider usage, and function implementations.
+version: 0.1.0
+license: MIT
+---
 # talocode-codebase-search
 
 Search codebases effectively before editing.

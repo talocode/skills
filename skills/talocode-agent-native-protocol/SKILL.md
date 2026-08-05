@@ -1,3 +1,9 @@
+---
+name: talocode-agent-native-protocol
+description: Design native agent capabilities for Talocode products — typed, permissioned, audited action registries and context providers for multi-surface use (UI, agent, API).
+version: 0.1.0
+license: MIT
+---
 # talocode-agent-native-protocol
 
 Guide Talocode agents to design products with shared actions, context, permissions, approval, and audit.

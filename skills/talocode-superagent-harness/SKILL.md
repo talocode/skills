@@ -1,3 +1,9 @@
+---
+name: talocode-superagent-harness
+description: Build multi-step agent workflows — task decomposition, sub-agent architectures, sandboxed execution, tool and skill routing, and message gateways.
+version: 0.1.0
+license: MIT
+---
 # talocode-superagent-harness
 
 Patterns for designing long-horizon agent systems with subagents, memory, sandboxes, skills, and message gateways.

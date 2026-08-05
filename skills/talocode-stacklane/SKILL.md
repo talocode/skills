@@ -1,3 +1,9 @@
+---
+name: talocode-stacklane
+description: Manage Stacklane customers, API keys, usage events, usage summaries, and asset metadata without external platform dependency or exposing raw secrets.
+version: 0.1.0
+license: MIT
+---
 # talocode-stacklane
 
 Use Stacklane as a local-first backend, storage, and usage layer from inside agent workflows.

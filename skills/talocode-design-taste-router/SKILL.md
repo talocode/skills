@@ -1,3 +1,9 @@
+---
+name: talocode-design-taste-router
+description: Route design tasks to the right Talocode design skill — frontend UI polish, partnership graphics, video design, and release demos.
+version: 0.1.0
+license: MIT
+---
 # talocode-design-taste-router
 
 Route agents to the right design skill based on the task.

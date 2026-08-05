@@ -1,3 +1,9 @@
+---
+name: talocode-launchpix
+description: Upload screenshots, generate launch cards and social banners, record asset metadata, and verify backend config without auto-publishing or storing secrets.
+version: 0.1.0
+license: MIT
+---
 # talocode-launchpix
 
 Use LaunchPix to create launch graphics and social assets from screenshots and product context, with optional Stacklane backend awareness.

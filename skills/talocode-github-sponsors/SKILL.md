@@ -1,3 +1,9 @@
+---
+name: talocode-github-sponsors
+description: Configure GitHub Sponsors for Talocode repositories — sponsor buttons, FUNDING.yml, sponsor badges, and README links.
+version: 0.1.0
+license: MIT
+---
 # talocode-github-sponsors
 
 Add GitHub Sponsors support to Talocode, Abdulmuiz44, and ClientPadHQ repositories.

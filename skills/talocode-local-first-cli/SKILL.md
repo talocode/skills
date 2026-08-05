@@ -1,3 +1,9 @@
+---
+name: talocode-local-first-cli
+description: Build CLI tools that work locally without requiring hosted infrastructure — no hosted dependency for the core flow.
+version: 0.1.0
+license: MIT
+---
 # talocode-local-first-cli
 
 Guide agents to build local-first open-source CLIs.

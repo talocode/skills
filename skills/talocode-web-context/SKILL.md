@@ -1,3 +1,9 @@
+---
+name: talocode-web-context
+description: Collect, clean, and use public or user-approved web and document context safely — turning scattered web content into concise, citable, AI-usable context.
+version: 0.1.0
+license: MIT
+---
 # talocode-web-context
 
 Safe web and document context extraction workflow for Talocode agents.

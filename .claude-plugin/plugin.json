@@ -1,0 +1,27 @@
+{
+  "name": "talocode-skills",
+  "displayName": "Talocode Skills",
+  "description": "51 local-first agent skills for Talocode ecosystem products: WorkLane, Stacklane, LaunchPix, market radar, content agent, coding workflows, writing, video, and more.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Talocode"
+  },
+  "homepage": "https://talocode.site",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/talocode/skills.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "talocode",
+    "skills",
+    "agent",
+    "worklane",
+    "stacklane",
+    "launchpix",
+    "market-radar",
+    "content",
+    "coding"
+  ],
+  "skills": "./skills/"
+}

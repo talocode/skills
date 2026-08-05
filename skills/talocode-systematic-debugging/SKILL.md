@@ -1,3 +1,9 @@
+---
+name: talocode-systematic-debugging
+description: Structured, evidence-based debugging that avoids guessing — API, auth, deploy, build, publish, webhook, and unexpected behavior failures.
+version: 0.1.0
+license: MIT
+---
 # talocode-systematic-debugging
 
 Root-cause debugging workflow for Talocode products.

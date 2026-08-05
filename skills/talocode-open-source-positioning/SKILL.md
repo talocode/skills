@@ -1,3 +1,9 @@
+---
+name: talocode-open-source-positioning
+description: Write READMEs, docs, and marketing copy for open-source Talocode-style products — open-source, local-first, provider-agnostic workflow-layer positioning.
+version: 0.1.0
+license: MIT
+---
 # talocode-open-source-positioning
 
 Guide agents on Talocode messaging and positioning.

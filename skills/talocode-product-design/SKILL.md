@@ -1,3 +1,9 @@
+---
+name: talocode-product-design
+description: Design polished, intentional product interfaces for Talocode products — Tera, Tradia, WorkLane, Codra Canvas, ClipLoop, and more.
+version: 0.1.0
+license: MIT
+---
 # talocode-product-design
 
 Design high-quality product interfaces without generic AI slop.

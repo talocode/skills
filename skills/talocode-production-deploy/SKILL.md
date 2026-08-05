@@ -1,3 +1,9 @@
+---
+name: talocode-production-deploy
+description: Deploy Talocode projects to production, fix build errors, verify builds before deployment, and troubleshoot CI/CD issues.
+version: 0.1.0
+license: MIT
+---
 # talocode-production-deploy
 
 Guide agents through Talocode production deployment and build verification.

@@ -1,3 +1,9 @@
+---
+name: talocode-workspace-teach
+description: Structured multi-session teaching environment — capture state, progress, and context so each session resumes where the last left off.
+version: 0.1.0
+license: MIT
+---
 # talocode-workspace-teach
 
 Set up a multi-session teaching workspace with lessons, reference docs, learning records, and mission tracking.

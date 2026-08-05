@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json.schemastore.org/claude-plugin-marketplace.json",
+  "name": "talocode-skills",
+  "owner": {
+    "name": "Talocode"
+  },
+  "description": "Talocode agent skills marketplace: 51 local-first skills for Talocode ecosystem products and agent workflows.",
+  "version": "0.1.0",
+  "plugins": [
+    {
+      "name": "talocode-skills",
+      "description": "51 local-first agent skills for Talocode ecosystem products and agent workflows.",
+      "version": "0.1.0",
+      "source": "./",
+      "skills": "./skills/",
+      "author": {
+        "name": "Talocode"
+      },
+      "category": "productivity",
+      "tags": [
+        "talocode",
+        "agent-skills",
+        "worklane",
+        "stacklane",
+        "launchpix",
+        "market-radar",
+        "content-agent"
+      ]
+    }
+  ]
+}

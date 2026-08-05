@@ -1,3 +1,9 @@
+---
+name: screen-recording-skill
+description: Turn screen recordings into reusable agent skills by extracting steps, actions, and UI patterns from video frames into a structured SKILL.md.
+version: 0.1.0
+license: MIT
+---
 # Screen Recording Skill
 
 ## What This Skill Does

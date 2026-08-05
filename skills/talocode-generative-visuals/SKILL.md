@@ -1,3 +1,9 @@
+---
+name: talocode-generative-visuals
+description: Generate algorithmic visuals for Talocode products using code-based approaches — motion backgrounds, launch visuals, abstract art, and banners.
+version: 0.1.0
+license: MIT
+---
 # talocode-generative-visuals
 
 Create procedural visuals for videos, launch assets, and product visuals.

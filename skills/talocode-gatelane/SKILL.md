@@ -1,3 +1,9 @@
+---
+name: talocode-gatelane
+description: GateLane sits between AI agents and MCP servers — control which tools an agent can call, who calls them, how often, with full audit logging.
+version: 0.1.0
+license: MIT
+---
 # gatelane
 
 Help an AI agent configure and use GateLane as an MCP gateway and agent tool control plane.

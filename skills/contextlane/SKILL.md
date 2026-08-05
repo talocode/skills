@@ -1,3 +1,9 @@
+---
+name: contextlane
+description: ContextLane — open-source context ingestion pipeline for persistent AI agents. Ingest files, folders, URLs, and GitHub repos into structured, citation-tracked memory and sync to MemoryLane for persistent recall.
+version: 0.1.0
+license: MIT
+---
 # ContextLane Skill
 
 ContextLane is an open-source context ingestion pipeline for persistent AI agents.

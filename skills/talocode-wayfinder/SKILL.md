@@ -1,3 +1,9 @@
+---
+name: talocode-wayfinder
+description: Break work too large for one agent session into a shared map on the issue tracker — chart the unknown and resolve decisions one ticket at a time.
+version: 0.1.0
+license: MIT
+---
 # talocode-wayfinder
 
 Plan large multi-session efforts as a shared map of investigation tickets, resolved one at a time until the route is clear.

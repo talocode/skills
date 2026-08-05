@@ -1,3 +1,9 @@
+---
+name: talocode-youtube-intelligence
+description: Study public YouTube channel and video metadata to extract structural patterns and plan original content through the ClipLoop video pipeline — not a copying engine.
+version: 0.1.0
+license: MIT
+---
 # talocode-youtube-intelligence
 
 Analyze public YouTube video/channel patterns and create original, high-retention video plans for Talocode and ClipLoop workflows.

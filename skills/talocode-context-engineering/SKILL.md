@@ -1,3 +1,9 @@
+---
+name: talocode-context-engineering
+description: Help agents maintain focus and accuracy during extended coding sessions by managing context effectively across large refactors and multi-file workflows.
+version: 0.1.0
+license: MIT
+---
 # talocode-context-engineering
 
 Manage long-running tasks without context collapse.

@@ -1,3 +1,9 @@
+---
+name: talocode-remotion-demo
+description: Create demo and release videos for Talocode products with Remotion and the ClipLoop timeline engine, HyperFrames-style HTML video, and ffmpeg.
+version: 0.1.0
+license: MIT
+---
 # talocode-remotion-demo (Legacy)
 
 **This skill has been renamed to `talocode-video`.**

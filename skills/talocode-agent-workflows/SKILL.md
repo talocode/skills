@@ -1,3 +1,9 @@
+---
+name: talocode-agent-workflows
+description: Define structured workflows for coding agents working on real software projects — TDD, code review, git, PRs, releases, and multi-step implementations.
+version: 0.1.0
+license: MIT
+---
 # talocode-agent-workflows
 
 Disciplined agent workflows for serious software work.

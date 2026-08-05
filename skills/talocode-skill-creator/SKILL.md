@@ -1,3 +1,9 @@
+---
+name: talocode-skill-creator
+description: Template and workflow for creating consistent, high-quality Talocode skills with progressive disclosure, leading words, and failure-mode awareness.
+version: 0.1.0
+license: MIT
+---
 # talocode-skill-creator
 
 Standardize how new Talocode skills are created. A skill exists to wrangle determinism out of a stochastic system — **predictability** (the agent taking the same process every run) is the root virtue.

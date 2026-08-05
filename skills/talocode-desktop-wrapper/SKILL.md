@@ -1,3 +1,9 @@
+---
+name: talocode-desktop-wrapper
+description: Build lightweight desktop wrappers for web apps — quick-access distribution, desktop integration, and app delivery without a full browser product.
+version: 0.1.0
+license: MIT
+---
 # talocode-desktop-wrapper
 
 Create lightweight desktop wrappers for web applications.

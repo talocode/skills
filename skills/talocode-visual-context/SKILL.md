@@ -1,3 +1,9 @@
+---
+name: talocode-visual-context
+description: Use visual page context when text extraction loses meaning — dashboards, data tables, charts, diagrams, UI layouts, code editors, and terminal output.
+version: 0.1.0
+license: MIT
+---
 # talocode-visual-context
 
 Use screenshot-aware page context when layout, charts, tables, or UI structure matter.

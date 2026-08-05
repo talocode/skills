@@ -1,3 +1,9 @@
+---
+name: talocode-bug-diagnosis
+description: Repeatable, feedback-loop-first process for diagnosing bugs — build a tight, deterministic, red-capable signal before generating any hypotheses.
+version: 0.1.0
+license: MIT
+---
 # talocode-bug-diagnosis
 
 A 6-phase discipline for diagnosing hard bugs and performance regressions.

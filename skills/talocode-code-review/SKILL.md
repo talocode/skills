@@ -1,3 +1,9 @@
+---
+name: talocode-code-review
+description: Review changes along two independent axes (Standards and Spec) using parallel sub-agents so one axis doesn't mask the other.
+version: 0.1.0
+license: MIT
+---
 # talocode-code-review
 
 Two-axis code review via parallel sub-agents: **Standards** (does the code follow documented conventions?) and **Spec** (does the code match the spec?).

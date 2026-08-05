@@ -1,3 +1,9 @@
+---
+name: talocode-worklane
+description: Drive WorkLane's tool gateway, loops and routines, automation approvals, execution queue, and audit history without bypassing human approval gates.
+version: 0.1.0
+license: MIT
+---
 # talocode-worklane
 
 Use WorkLane as an approval-first agent automation control plane from inside agent workflows.

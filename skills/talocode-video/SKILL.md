@@ -1,3 +1,9 @@
+---
+name: talocode-video
+description: Create video content for Talocode ecosystem products — release demos, product launches, feature showcases, tutorials, social content, and partnership announcements.
+version: 0.1.0
+license: MIT
+---
 # talocode-video
 
 Create high-quality Talocode videos for releases, demos, product updates, and social distribution using Remotion, HyperFrames-style HTML video, ffmpeg, ClipLoop, and image→video tools when available.

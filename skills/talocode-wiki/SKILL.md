@@ -1,3 +1,9 @@
+---
+name: talocode-wiki
+description: Build and query a linked knowledge base — ingest documents, PDFs, web pages, and text into knowledge pages, lint for contradictions, dead links, and orphans.
+version: 0.1.0
+license: MIT
+---
 # Talocode Wiki — Agent Knowledge Base
 
 ## What This Skill Does

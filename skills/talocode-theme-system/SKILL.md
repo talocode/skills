@@ -1,3 +1,9 @@
+---
+name: talocode-theme-system
+description: Define visual identity for Talocode products through consistent theme systems — colors, typography, spacing, and mood.
+version: 0.1.0
+license: MIT
+---
 # talocode-theme-system
 
 Create and apply coherent theme systems across Talocode products.

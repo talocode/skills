@@ -1,3 +1,9 @@
+---
+name: talocode-partnership-branding
+description: Generate sleek partnership announcement graphics for Talocode ecosystem brands and related projects.
+version: 0.1.0
+license: MIT
+---
 # talocode-partnership-branding
 
 Create premium partnership / collaboration brand images in the Talocode style.

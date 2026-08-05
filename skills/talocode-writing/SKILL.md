@@ -1,3 +1,9 @@
+---
+name: talocode-writing
+description: Guide writing from raw material to finished article using deliberate divergence and convergence separation — avoiding premature commitment to structure.
+version: 0.1.0
+license: MIT
+---
 # talocode-writing
 
 A three-phase writing methodology: **explore** (mine fragments) then **exploit** (commit to structure) through shaping or beats.
