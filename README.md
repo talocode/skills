@@ -62,6 +62,7 @@ Skills are markdown files that give AI coding agents (Codex, Claude Code, Cursor
 | `talocode-launchpix` | LaunchPix launch graphics and social assets from screenshots |
 | `talocode-market-radar` | Competitor surveillance: verified baseline, delta grading, Act/Investigate/Watch/Ignore decisions with evidence |
 | `talocode-content-agent` | Brief-to-improvement content loop with evidence review and performance receipts |
+| `talocode-tutorial-video` | Step-by-step tutorial videos: outcome, prerequisites, numbered steps, recap |
 
 ## Install
 
@@ -100,6 +101,7 @@ npx skills add talocode/skills/talocode-stacklane
 npx skills add talocode/skills/talocode-launchpix
 npx skills add talocode/skills/talocode-market-radar
 npx skills add talocode/skills/talocode-content-agent
+npx skills add talocode/skills/talocode-tutorial-video
 ```
 
 Or install all at once:
