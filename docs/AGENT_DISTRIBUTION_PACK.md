@@ -9,6 +9,8 @@ Marketplace-ready agent skills that make Talocode tools usable from Codex, Claud
 | `talocode-worklane` | WorkLane as an approval-first agent automation control plane |
 | `talocode-stacklane` | Stacklane as a local-first backend, storage, and usage layer |
 | `talocode-launchpix` | LaunchPix launch graphics and social assets from screenshots |
+| `talocode-market-radar` | Competitor surveillance: verified baseline, delta grading, Act/Investigate/Watch/Ignore decisions with evidence |
+| `talocode-content-agent` | Brief-to-improvement content loop with evidence review and performance receipts |
 
 Each skill lives at `skills/<name>/SKILL.md`.
 
@@ -29,6 +31,8 @@ Codex-style systems load `SKILL.md` files as specialized knowledge modules.
    npx skills add talocode/skills/talocode-worklane
    npx skills add talocode/skills/talocode-stacklane
    npx skills add talocode/skills/talocode-launchpix
+   npx skills add talocode/skills/talocode-market-radar
+   npx skills add talocode/skills/talocode-content-agent
    ```
 2. Reference the skill by name when the task matches its purpose (for example, `/talocode-worklane`).
 3. The agent reads the `SKILL.md`, follows its workflow, and returns the documented final report fields.
@@ -42,6 +46,14 @@ These workflows treat `SKILL.md` files as project-local instructions.
 3. The agent follows the required behavior, workflow, and validation checklist inline.
 
 No cloud account is required. The skills assume a local or self-hosted install of the target tool.
+
+## Codex Direct Discovery
+
+Codex auto-discovers skills in `~/.agents/skills/` (user scope) and `.agents/skills/` (repo scope) when the `skills` feature is enabled. Every skill ships a `name` and `description` in frontmatter, so copying `skills/<name>/SKILL.md` into either directory makes it discoverable without a separate registry step. Restart Codex after copying.
+
+## Claude Code Direct Discovery
+
+Claude Code auto-discovers Agent Skills in `~/.claude/skills/` (personal) and `.claude/skills/` (project) using the Agent Skills open standard. Copy `skills/<name>/SKILL.md` into either directory to load it directly.
 
 ## Required Tools
 

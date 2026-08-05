@@ -102,6 +102,23 @@ Section: recommended next action per decision
 
 Completion criterion: each claim in the report links to its source and includes a capture date, so a reader can verify independently.
 
+## Final Report Fields
+
+Report every run with these fields so the next baseline is reproducible:
+
+```text
+Target:
+Baseline date:
+Snapshot date:
+Changes found:
+Decisions (Act / Investigate / Watch / Ignore):
+Evidence links:
+Confidence and impact per change:
+Next baseline scheduled:
+```
+
+Completion criterion: the report contains every field above, and each decision references its delta.
+
 ## Constraints
 
 - Use only public sources. No private accounts, paywalled scrapes, or non-public data.

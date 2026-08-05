@@ -1,0 +1,21 @@
+{
+  "name": "Talocode Market Radar",
+  "slug": "talocode-market-radar",
+  "description": "Watch competitors across public sources, build a verified baseline, and turn every change into a graded Act/Investigate/Watch/Ignore decision with evidence links.",
+  "category": "market-intelligence",
+  "tags": ["market-radar", "competitive-intelligence", "baseline", "delta", "evidence", "decision-grading", "local-first"],
+  "repo": "https://github.com/talocode/skills.git",
+  "skill_path": "skills/talocode-market-radar/SKILL.md",
+  "local_first": true,
+  "approval_first": true,
+  "requires_cloud_account": false,
+  "supported_agent_environments": [
+    "Codex",
+    "Claude Code",
+    "OpenCode",
+    "Cursor",
+    "SKILL.md-compatible agents"
+  ],
+  "version": "0.1.0",
+  "license": "MIT"
+}

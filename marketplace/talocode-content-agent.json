@@ -1,0 +1,21 @@
+{
+  "name": "Talocode Content Agent",
+  "slug": "talocode-content-agent",
+  "description": "Create original, evidence-led Talocode and TeraAI content through a repeatable brief-to-improvement loop with evidence review, approval, and performance receipts.",
+  "category": "content",
+  "tags": ["content-agent", "content-workflow", "brief", "evidence-review", "performance-receipt", "local-first"],
+  "repo": "https://github.com/talocode/skills.git",
+  "skill_path": "skills/talocode-content-agent/SKILL.md",
+  "local_first": true,
+  "approval_first": true,
+  "requires_cloud_account": false,
+  "supported_agent_environments": [
+    "Codex",
+    "Claude Code",
+    "OpenCode",
+    "Cursor",
+    "SKILL.md-compatible agents"
+  ],
+  "version": "0.1.0",
+  "license": "MIT"
+}

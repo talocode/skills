@@ -1,3 +1,8 @@
+---
+name: talocode-content-agent
+description: Create original, evidence-led Talocode and TeraAI content through a repeatable brief-to-improvement loop. Use when planning a product Short, demo, post, thread, or TeraAI learning content; reviewing a draft before publication; or recording content performance and selecting the next experiment.
+---
+
 # talocode-content-agent
 
 Create original, evidence-led Talocode and TeraAI content through a repeatable brief-to-improvement loop.
@@ -108,6 +113,22 @@ One next change:
 ```
 
 Completion criterion: select one tested change for the next asset rather than changing several variables at once.
+
+## Final Report Fields
+
+Report every published asset with these fields so the next run improves one tested change:
+
+```text
+Asset:
+Published at:
+Lane (Talocode / TeraAI):
+Hook:
+Proof sequence:
+Destination:
+Performance receipt scheduled (date):
+```
+
+Completion criterion: the report contains every field above and names one tested change for the next asset.
 
 ## Constraints
 
