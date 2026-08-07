@@ -26,7 +26,7 @@ Use this skill when:
 Use the leading word **receipt**: every stage leaves a reviewable artifact before the next stage begins.
 
 ```text
-brief -> draft -> evidence review -> approval -> publish -> performance receipt -> improve next run
+brief -> draft -> evidence review -> approval -> publish -> content factory reuse -> performance receipt -> improve next run
 ```
 
 ## Workflow
@@ -114,6 +114,16 @@ One next change:
 
 Completion criterion: select one tested change for the next asset rather than changing several variables at once.
 
+### 7. Content Factory
+
+Treat every approved asset as raw material for several pieces, not one upload. One strong build can become a portfolio.
+
+- **5x rule:** after the main asset publishes, adapt the same visible proof into up to five pieces (Short, full explainer, GitHub thread, docs entry, cross-post) without changing the supported claim. Different frame, same demonstration.
+- **Reuse without repetition:** every derivative asset must preserve the approved claim and evidence, but change the hook, framing, depth, pacing, or audience angle. Do not publish near-identical captions/scripts across Short, explainer, thread, and docs.
+- **Two tiers:** keep the daily problem-led Short lane plus an evergreen "what is / how" explainer layer (3-10 min) that can rank in search for months. Evergreen assets compound views the way a daily hit runway builds followers.
+- **Decision metric:** when choosing the next experiment, prioritize the asset with the highest retention (average watch %) and shares per view, not the highest raw view count. Engaged retention predicts the next day's algorithm pick better than a single spike.
+- **Volume ceiling is solo reality:** a factory cadence (many uploads/week across all formats) belongs to teams with editing crews. At founder + agent scale run one short per day plus enough evergreen coverage to compound; quality and retention stay the gating constraint.
+
 ## Final Report Fields
 
 Report every published asset with these fields so the next run improves one tested change:
@@ -125,6 +135,7 @@ Lane (Talocode / TeraAI):
 Hook:
 Proof sequence:
 Destination:
+Reuses (if any short + explainer + thread):
 Performance receipt scheduled (date):
 ```
 
@@ -147,5 +158,6 @@ Completion criterion: the report contains every field above and names one tested
 - [ ] Captions are readable on a phone.
 - [ ] The title, caption, and destination match the approved asset.
 - [ ] The Talocode or TeraAI lane is correct.
+- [ ] Where relevant, the asset has planned reuses (short + explainer + thread) after human approval of the main piece.
 - [ ] A human reviewed the public version.
 - [ ] A performance receipt is scheduled for at least 72 hours after publishing.
